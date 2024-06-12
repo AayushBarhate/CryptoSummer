@@ -27,7 +27,9 @@ private static extern int MessageBox(IntPtr hWnd, string lpText, string lpCaptio
 
 they use extern keyword to inform the runtime of the specific DLL that was previously imported, and use it directly in the script as a managed method.
 
-API call structures was interesting af , didn't know they use struct to define parameters for API calls
+API call structures was interesting af , didn't know they use struct to define parameters for API calls.
+
+
 
 
 
@@ -35,6 +37,6 @@ Overall this was something new and interesting, will be looking into API calls i
 
 
 
-PE analysis 
+https://tryhackme.com/r/room/dissectingpeheaders
 
 I think i have gone through this sometime during a CTF challenge - [TryHackMe | Dissecting PE Headers](https://tryhackme.com/r/room/dissectingpeheaders)
